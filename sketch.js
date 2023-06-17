@@ -64,11 +64,11 @@ function setup()
   if(isMobile){
     canW = displayWidth;
     canH = displayHeight;
-    createCanvas(canW-10,canH)
+    createCanvas(canW,canH)
   }else{
     canW = windowWidth;
     canH = windowHeight;
-    createCanvas(windowWidth-80,windowHeight-10)
+    createCanvas(windowWidth,windowHeight-10)
   }
   
   frameRate(80);
